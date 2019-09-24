@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Danny heeft me geholpen */
+li:not(:last-child) {
+    justify-content: flex-end;
+    float: right;
+    margin-right: 0.5em;
+}
+
+img {
+
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+}
+
+.homeimg {
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.bloem {
+    width: 200px;
+    height: auto;
+
+}
+
+.strawberry {
+    width: 200px;
+    height: auto;
+}
+
+.hartjes {
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.een {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+
+}
+
+.twee {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.drie {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+
+.fleurig {
+    width: 375px;
+    height: auto;
+}
